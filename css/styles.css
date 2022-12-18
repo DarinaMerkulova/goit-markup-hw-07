@@ -1,0 +1,193 @@
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+:root {
+  --primary-text-color--: #434455;
+  --secondary-text-color--: #2e2f42;
+  --wight-color--: #ffffff;
+  --active-color--: #4d5ae5;
+  --pressed-color--: #404bbf;
+  --helper-text-color: #8e8f99;
+  --accent-color--: #e7e9fc;
+  --light-mode-backgraund: #f4f4fd;
+}
+
+.list {
+  list-style: none;
+}
+.backgroud {
+  background-color: var(--secondary-text-color--);
+}
+.second-backgroud {
+  background-color: var(--light-mode-backgraund);
+}
+
+/*logo*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--active-color--);
+  text-decoration: none;
+}
+.header-logo {
+  color: var(--secondary-text-color--);
+}
+
+/*Site-nav*/
+.site-nav .link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color--);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--active-color--);
+}
+.site-nav .link.current {
+  color: var(--pressed-color--);
+}
+/*contacts*/
+.contacts .link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color--);
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts.link:focus {
+  color: var(--active-color--);
+}
+/*Hero*/
+
+.hero-title {
+  color: var(--wight-color--);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.hero-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: inherit;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  background: var(--active-color--);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--wight-color--);
+  cursor: pointer;
+  width: 170px;
+  height: 51px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-color--);
+}
+/* section*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--secondary-text-color--);
+}
+/*Our advantages*/
+
+.advantage-list .title,
+.team-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  color: var(--secondary-text-color--);
+}
+/*Our team*/
+.employee {
+  background-color: var(--wight-color--);
+}
+
+/* footer*/
+
+.footer-text {
+  color: var(--accent-color--);
+}
+
+.footer-logo {
+  color: var(--wight-color--);
+}
+
+/* PORTFOLIO*/
+
+.filter-button {
+  /* button-text*/
+
+  border: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: inherit;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--button-link-color--);
+  background: var(--light-mode-backgraund);
+  border: 1px solid var(--accent-color--);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--wight-color--);
+  background: var(--pressed-color--);
+}
+
+.filter-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  color: var(--secondary-text-color--);
+}
+
+.filter-list .text {
+  font-family: inherit;
+  font-style: normal;
+  font-size: inherit;
+  line-height: 1.5;
+  letter-spacing: inherit;
+  color: var(--primary-text-color--);
+}
+
+.filter-link {
+  text-decoration: none;
+}
+.filter-list .text:hover,
+.filter-list .text:focus,
+.filter-list .title:hover,
+.filter-list .title:focus {
+  color: var(--active-color--);
+}
