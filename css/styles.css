@@ -374,9 +374,9 @@ img {
   color: var(--primary-text-color--);
 }
 
-.filter-list .text:hover,
-.filter-list .text:focus,
-.filter-list .title:hover,
-.filter-list .title:focus {
+.card-name-title:hover,
+.card-name-title:focus,
+.card-name-text:hover,
+.card-name-text:focus {
   color: var(--active-color--);
 }
