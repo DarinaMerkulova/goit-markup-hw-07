@@ -171,7 +171,6 @@ img {
   font-weight: 600;
   font-size: inherit;
   line-height: 1.19;
-  display: flex;
   text-align: center;
   letter-spacing: 0.04em;
   background: var(--active-color--);
