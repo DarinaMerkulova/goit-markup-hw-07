@@ -90,11 +90,9 @@ img {
   border-bottom: 1px solid var(--accent-color--);
 }
 
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
+
+
+.header-list {
   display: flex;
   gap: 40px;
   margin-left: 76px;
@@ -102,6 +100,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .nav-link {
@@ -125,7 +124,7 @@ img {
 
 /*contacts*/
 
-.contacts {
+.auth-list {
   display: flex;
   gap: 40px;
   margin-left: auto;
