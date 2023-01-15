@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit-markup-hw-04</title>
+    <title>goit-markup-hw-05</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
         <!--Hero-->
         <section class="hero backgroud">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-button">Order Service</button>
+            <button type="button" class="hero-button" data-modal-open>Order Service</button>
         </section>
 
         <!--Our advantages-->
@@ -55,7 +55,7 @@
                         <svg class="strategy-icon" width="60" height="64">
                             <use href="./images/icons.svg#icon-antenna-1"></use>
                         </svg></div>
-                        
+                       
                             <h3 class="adventage-title">Strategy</h3>
                             <p class="advantage-text">Our goal is to identify the business
                                 problem to walk away with the perfect and creative solution. </p>
@@ -131,7 +131,7 @@
                                     </svg>
                                 </a></li>
                                 <li class="team-soc-item"><a href="" class="team-soc-link"><svg class="team-soc-icon" width="16" height="16">
-                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    <use href="../images/icons.svg#icon-twitter-1"></use>
                                 </svg></a></li>
                                 <li class="team-soc-item"><a href="" class="team-soc-link"><svg class="team-soc-icon" width="16" height="16">
                                     <use href="./images/icons.svg#icon-facebook-1"></use>
@@ -264,10 +264,16 @@
                 </svg></a></li>
                 <li class="footer-soc-item"><a href="" class="footer-soc-link"><svg class="footer-soc-icon" width="16" height="16">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg></a></li></div>
+                                    </svg></a></li></div>
         </div>
     
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+        <button type="button" class="modal-close" data-modal-close><svg class="footer-soc-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-Vector-1"></use></svg></button></div>
+    </div>
+    <script src="./js/modal.js"></script>
 
 </body>
 
