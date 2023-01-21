@@ -446,15 +446,14 @@ img {
   color: rgba(255, 255, 255, 0.6);
   line-height: 2;
   padding: 8px 16px;
-  margin-right: 24px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  min-width: 165px;
+  min-width: 264px;
   height: 40px;
 }
-.subscribe-field  {
+.subscribe-field {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -462,7 +461,6 @@ img {
 
 .subscribe-wrap {
   position: relative;
-  
 }
 .subscribe-btn {
   padding: 8px 24px;
@@ -470,7 +468,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: left;
-  min-width: 264px;
+  min-width: 165px;
   height: 40px;
 
   transition: background-color var(--cub--);
@@ -709,7 +707,6 @@ img {
 .modal-input:focus + .modal-icon {
   fill: var(--active-color--);
 }
-
 
 .modal-label {
   font-size: 12px;
