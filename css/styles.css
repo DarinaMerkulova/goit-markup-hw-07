@@ -379,9 +379,11 @@ img {
 .footer-container {
   display: flex;
   justify-content: flex-start;
-  gap: 120px;
+  
 }
-
+.footer-wrap {
+  margin-right: 120px;
+}
 .footer-logo {
   display: block;
   font-family: Raleway;
@@ -403,6 +405,9 @@ img {
   max-width: 264px;
 }
 
+.footer-social-media{
+  margin-right: auto;
+}
 .social-media-title {
   margin-bottom: 16px;
   color: var(--wight-color--);
@@ -459,10 +464,9 @@ img {
   gap: 24px;
 }
 
-.subscribe-wrap {
-  position: relative;
-}
+
 .subscribe-btn {
+  position: relative;
   padding: 8px 24px;
   font-weight: 500;
   line-height: 1.5;
@@ -702,6 +706,7 @@ img {
 
 .modal-input:focus {
   border: 1px solid var(--active-color--);
+  outline: none;
 }
 
 .modal-input:focus + .modal-icon {
@@ -744,6 +749,12 @@ img {
   background-color: transparent;
   padding: 8px 15px;
   resize: none;
+  transition: border var(--cub--);
+}
+
+.comment-text:focus {
+  border: 1px solid var(--active-color--);
+  outline: none;
 }
 .modal-comment {
   margin-bottom: 16px;
