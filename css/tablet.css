@@ -1,0 +1,159 @@
+ 
+@media screen and (min-width:768px) and (max-width:1199px) {
+.tablet-container {
+  max-width: 552px;
+  margin: 0 auto;}
+}
+
+@media screen and (min-width:768px)
+    {.container 
+          {max-width: 767px;}
+   
+                  
+  /* -- HEADER--  */
+
+  .nav-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 123px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    }
+
+.nav-link {
+      position: relative;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--secondary-text-color--);
+      text-decoration: none;
+    
+      padding-bottom: 24px;
+      padding-top: 24px;
+      transition: color var(--cub--);
+   }
+  
+   .nav-link:hover,
+   .nav-link:focus {
+     color: var(--active-color--);}
+
+.nav-link.current {
+      color: var(--pressed-color--);   }
+
+      .nav-link.current::after {
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+      
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background: var(--pressed-color--);
+        border-radius: 2px;}
+
+ /*contacts*/
+
+.contacts {
+  display: block;
+  margin-left: auto;
+  
+}
+
+.contacts-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--primary-text-color--);
+  text-decoration: none;
+  transition: color var(--cub--);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--active-color--);
+} 
+
+.menu-button {
+  display: none;}
+
+   
+  /*Hero*/
+
+ .hero { 
+      padding-top: 111px;
+      padding-bottom: 204px;
+      background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-backgraund.jpg);
+      }
+   
+    .hero-title { 
+    margin-bottom: 40px;
+    max-width: 494px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-transform: capitalize;}
+    
+  
+  /*Our advantages*/
+  
+    .advantage-list {
+        display: flex;
+        flex-wrap:wrap;
+        gap: 24px;
+        row-gap: 72px;
+  }
+  .adventage-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+      
+   
+  /*Our team*/
+  
+  .team-list  {
+    gap: 24px;
+    row-gap: 64px;}
+
+  .team-list-item {
+  flex-basis: calc((100% - 24px) / 2);}
+    
+       
+  /* customers*/
+   
+   
+  .customers-list {
+    column-gap: 24px;}
+      
+  .customers-item {
+      width: calc((100% - 48px) / 3);}
+      
+  
+  
+  /* footer*/
+  @media screen and (max-width: 1199px){
+   .footer-container {
+      
+      justify-content: flex-start;
+      gap: 24px;
+    row-gap: 72px;
+    text-align: left;}
+ }
+ .subscribe-field {
+  display: flex;
+  flex-wrap:nowrap;
+  align-items: center;
+  gap: 24px;
+
+}
+} 
+
+  
+ 
+  
+  
