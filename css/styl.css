@@ -139,7 +139,7 @@ img {
 /* -- ---MOBILE-MENU----  */
 
 .menu-container{
-  max-width: 428px;
+  max-width: 100%;
   height: 100%;
   padding-left: 25px;
   padding-right: 25px;
@@ -153,10 +153,7 @@ img {
   top: 0;
   left: 0;
   background-color: var(--wight-color--);
-  
   z-index: 1;
-  padding-top: 40px;
-  padding-bottom: 40px;
   width: 100vw;
   height: 100vh;
   
@@ -285,7 +282,8 @@ margin-right: auto;}
 /*HERO*/
 .hero {
   text-align: center;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   padding-top: 112px;
   padding-bottom: 112px;
   margin-left: auto;
@@ -295,10 +293,23 @@ margin-right: auto;}
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-backgraund.jpg);
-    background-image: 100%;
+    url(../images/hero-backgraund-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero  {
+    background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/hero-backgraund-mob-2x.jpg);
+  }
 }
-
 .hero-title {
   font-size: 36px;
   line-height: 1.1;
@@ -361,7 +372,7 @@ margin-right: auto;}
     margin-bottom: 8px;
   color: var(--secondary-text-color--);
   margin-bottom: 8px;
-  text-align: center
+  text-align: center;
 }
 /*What are we doing */
  @media screen and (max-width: 1199px){
@@ -542,11 +553,15 @@ margin-right: auto;}
   height: 40px;
   
   
+  
 }
 @media screen and (max-width: 479px){
  .footer-input {
   width: 100%;
-  margin-bottom: 24px;}
+  }
+}
+@media screen and (max-width: 767px){
+  .footer-input {margin-bottom: 16px;}
 }
 
 .subscribe-field {

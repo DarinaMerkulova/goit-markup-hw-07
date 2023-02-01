@@ -7,10 +7,9 @@
  
 /* -- ---MOBILE-MENU----  */
 
-.mob-menu-container{
-  width: 428px;
-  padding: 40px;
-  margin: 0 auto;}
+.menu-container{
+  max-width: 428px;
+  padding: 40px;}
 
 
 .mob-phone-link {
@@ -18,6 +17,9 @@
   
 
 /*Hero*/
+.hero{
+width: 428px;
+height: 432px;}
 
 .hero-title {
   max-width: 318px;

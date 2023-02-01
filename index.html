@@ -51,7 +51,7 @@
     <div>
       <!-- ---MOBILE-MENU---- -->
     <div class="mob-menu is-hidden" data-menu>
-       <div class="menu-container mob-menu-container">
+       <div class="menu-container ">
          <div class="mob-menu-top">
             <button type="button" class="menu-close" data-menu-close>
               <svg class="icon-close" width="8" height="8">
@@ -118,17 +118,15 @@
   <main>
     <!--Hero-->
     <section class="hero backgroud ">
-      <div class="hero-container container">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+      <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button btn" data-modal-open>
           Order Service
         </button>
-      </div>
-    </section>
+     </section>
 
     <!--Our advantages-->
     <section class="advantage-section section">
-      <div class="container">
+      <div class="container ">
         <h2 class="visually-hidden">Our advantages</h2>
         <ul class="advantage-list list">
           <li class="adventage-list-item">
@@ -192,13 +190,19 @@
         <h2 class="projects-title section-title">What are we doing</h2>
         <ul class="projects-list list">
           <li class="projects-list-item">
-            <img src="./images/profile.jpg" alt="profile on site" width="360" />
+            <img src="./images/profile.jpg" alt="profile on site" 
+            srcset="./images/profile.jpg 1x, ./images/profile-2x.jpg 2x"
+            width="360" />
           </li>
           <li class="projects-list-item">
-            <img src="./images/chat.jpg" alt="your group on chat" width="360" />
+            <img src="./images/chat.jpg" alt="your group on chat" 
+            srcset="./images/chat.jpg 1x, ./images/chat-2x.jpg 2x"
+            width="360" />
           </li>
           <li class="projects-list-item">
-            <img src="./images/application.jpg" alt="application on phone" width="360" />
+            <img src="./images/application.jpg" alt="application on phone"
+            srcset="./images/application.jpg 1x, ./images/application-2x.jpg 2x"
+            width="360" />
           </li>
         </ul>
       </div>
@@ -209,7 +213,9 @@
         <h2 class="team-title section-title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-list-item">
-            <img src="./images/employee_1.jpg" alt="Mark Guerrero" width="264" />
+            <img src="./images/employee_1.jpg" alt="Mark Guerrero"
+            srcset="./images/employee_1.jpg 1x, ./images/employee_1-2x.jpg 2x, "
+            width="264" />
             <div class="team-name">
               <h3 class="team-name-title">Mark Guerrero</h3>
               <p class="team-name-text">Product Designer</p>
@@ -239,7 +245,9 @@
               </ul> </div></li>
                       
           <li class="team-list-item">
-            <img src="./images/employee_2.jpg" alt="Tom Ford" width="264" />
+            <img src="./images/employee_2.jpg" alt="Tom Ford"
+            srcset="./images/employee_2.jpg 1x, ./images/employee_2-2x.jpg 2x"
+             width="264" />
             <div class="team-name">
               <h3 class="team-name-title">Tom Ford</h3>
               <p class="team-name-text">Frontend Developer</p>
@@ -270,7 +278,9 @@
             </div>
             </li>
           <li class="team-list-item">
-            <img src="./images/employee_3.jpg" alt="Camila Garcia" width="264" />
+            <img src="./images/employee_3.jpg" alt="Camila Garcia"
+            srcset="./images/employee_3.jpg 1x, ./images/employee_3-2x.jpg 2x"
+            width="264" />
             <div class="team-name">
               <h3 class="team-name-title">Camila Garcia</h3>
               <p class="team-name-text">Marketing</p>
@@ -302,7 +312,9 @@
           </li>
         
           <li class="team-list-item">
-            <img src="./images/employee_4.jpg" alt="Daniel Wilson" width="264" />
+            <img src="./images/employee_4.jpg" alt="Daniel Wilson"
+            srcset="./images/employee_4.jpg 1x, ./images/employee_4-2x.jpg 2x"
+            width="264" />
             <div class="team-name">
               <h3 class="team-name-title">Daniel Wilson</h3>
               <p class="team-name-text">UI Designer</p>
@@ -376,7 +388,7 @@
   </main>
   <!--Footer-->
   <footer class="footer section backgroud">
-    <div class="footer-container container mobile-container tablet-container">
+    <div class="footer-container container tablet-container">
       <div class="footer-wrap">
         <a class="footer-logo" href="./index.html">WEB<span class="footer-logo-part">STUDIO</span></a>
         <p class="footer-text">
