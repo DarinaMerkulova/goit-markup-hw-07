@@ -218,6 +218,9 @@ img {
 .mob-link.current {
   color: var(--pressed-color--);
 }
+.mob-menu-bottom {
+  padding-bottom: 40px;
+}
 /* mobile-contacts */
 
 .mob-contacts {
