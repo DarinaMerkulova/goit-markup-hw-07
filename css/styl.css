@@ -138,9 +138,9 @@ img {
 /* -- ---MOBILE-MENU----  */
 
 .menu-container {
-  max-width: 100%;
-  height: 100%;
-  padding: 25px;
+  max-width: 100vw;
+  height: 100vh;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -280,7 +280,7 @@ img {
 /*HERO*/
 .hero {
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   padding-top: 112px;
   padding-bottom: 112px;
@@ -380,6 +380,10 @@ img {
 }
 
 /*Our team*/
+
+.team section {
+  margin-bottom: 128px;
+}
 .team-list-item {
   background-color: var(--wight-color--);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -544,15 +548,12 @@ img {
   border-radius: 4px;
   background-color: transparent;
   height: 40px;
-}
-@media screen and (max-width: 479px) {
-  .footer-input {
-    width: 100%;
-  }
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .footer-input {
     margin-bottom: 16px;
+   
   }
 }
 

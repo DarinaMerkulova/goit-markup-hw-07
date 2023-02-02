@@ -20,9 +20,8 @@
 
   /*Hero*/
   .hero {
-    width: 428px;
-    height: 432px;
-  }
+    max-width: 428px;
+      }
 
   .hero-title {
     max-width: 318px;
@@ -32,10 +31,10 @@
     max-width: 396px;
   }
 
-  .footer-input {
-    min-width: 264px;
+  .footer-input{
+    width: 396px;
   }
-
+  
   /* PORTFOLIO*/
 
   .filter-section {
