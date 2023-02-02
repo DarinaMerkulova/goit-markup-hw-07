@@ -136,13 +136,7 @@ img {
   justify-content: space-between;
 }
 /* -- ---MOBILE-MENU----  */
-.mob-container { 
-  max-width: 428px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 0 auto;
 
-}
 .menu-container {
   display: flex;
   flex-direction: column;
