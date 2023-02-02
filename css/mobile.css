@@ -9,12 +9,7 @@
 
   /* -- ---MOBILE-MENU----  */
 
-  .menu-container {
-    max-width: 428px;
-    padding: 40px;
-  }
-
-  .mob-phone-link {
+   .mob-phone-link {
     font-size: 36px;
   }
 
